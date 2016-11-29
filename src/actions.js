@@ -21,10 +21,3 @@ export function requestVideos(searchTerm) {
 export function receiveVideos(data) {
   return {type: "RECEIVE_VIDEOS", payload: data}
 }
-
-// export function fetchVideos(searchTerm){
-//   const videos = axios.get(`https://www.googleapis.com/youtube/v3/search?q=${searchTerm}&part=snippet&key=${API_KEY}`)
-//     .then((result) =>
-//         resultFunction(result)
-//     )
-// }

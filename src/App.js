@@ -15,9 +15,9 @@ class App extends Component {
       <div className="App">
         <Search fetchVideos={this.props.fetchVideos}/>
         {this.props.mainVideo &&
-          <div><MainPlayer video={this.props.mainVideo}/>}
-              <Thumbnails changeMain={this.props.changeMain} thumbnails={this.props.thumbnails}/>
-              <Description video={this.props.mainVideo}/>
+          <div><MainPlayer video={this.props.mainVideo}/>
+               <Thumbnails changeMain={this.props.changeMain} thumbnails={this.props.thumbnails}/>
+               <Description video={this.props.mainVideo}/>
           </div>}
       </div>
     )
