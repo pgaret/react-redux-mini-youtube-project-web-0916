@@ -1,27 +1,45 @@
-.search-bar {
-  margin: 20px;
+.title {
+  width: 50%;
   text-align: center;
+  font-size: 5em;
+  margin: 12% 25% 3%;
 }
 
-.search-bar input {
-  width: 75%;
+input[type=text]{
+  text-align: center;
+  font-size: 2em;
+  width: 72%;
+  margin: 3% 0% 5% 15%;
+  padding: 3%;
 }
 
-.video-item img {
-  max-width: 64px;
+button {
+  font-size: 1.5em;
+  margin: 3% 2% 0% 2%;
+  padding: 1% 2% 3% 2%;
 }
 
-.video-detail .details {
-  margin-top: 10px;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+.mainVid {
+  float: left;
+  width: 50vw;
+  height: 37.5vw;
 }
 
-.list-group-item {
-  cursor: pointer;
+img {
+  width: 15vw;
+  margin-left: 4%;
+  margin-bottom: 2%;
 }
 
-.list-group-item:hover {
-  background-color: #eee;
+.description {
+  margin-top: 6vw;
+}
+
+.channel{
+  font-weight: bold;
+}
+
+.videoTitle{
+  font-weight: bolder;
+  font-size: 2em;
 }

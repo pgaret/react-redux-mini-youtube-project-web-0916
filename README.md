@@ -15,7 +15,7 @@ You'll probably need your state object to have two top-level keys: one for the s
 Please note:
 Because we're dealing with making asynchronous data requests, we've used a library called Redux Promise to prevent our actions from getting dispatched to our reducers until any promises on them have been resolved. Redux Promise is configured for you in the store.js file - you just need to create and pass in your root reducer.
 
-Note that Redux Promise is picky about the structure of any actions that you decide to dispatch. They need to have only two keys (no more), and one has to be type (this part is true for all Redux actions). We'll go over this stuff more next week. For now, just trust that Redux Promise is intercepting your actions before they hit your reducers to make sure that the data is actually there and not just a promise waiting to be resolved. You don't need to do anything differently.
+`Note that Redux Promise is picky about the structure of any actions that you decide to dispatch. They need to have only two keys (no more), and one has to be type (this part is true for all Redux actions). We'll go over this stuff more next week. For now, just trust that Redux Promise is intercepting your actions before they hit your reducers to make sure that the data is actually there and not just a promise waiting to be resolved. You don't need to do anything differently.`
 
 We've also set up the basic structure for the action to fetch videos from the YouTube API in the actions.js file using an HTTP request library called axios. (It works basically the same as jQuery for get/post requests.)
 
